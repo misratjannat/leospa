@@ -1,0 +1,74 @@
+@media only screen and (max-width: 980px){
+	.banner-section .hero-img{
+		display: none;
+	}
+	.appointment-section .contact-img{
+		display: none;
+	}
+	.member-details{
+		max-width: calc( 100% - 0px);
+		padding: 30px 5px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.mobile-menu{
+		display: block;
+	}
+    .mobile-responsive{
+    	position: relative;
+    }
+	.main-nav{
+		position: absolute;
+		width: 100%;
+		background: #FCF5EE;
+		padding: 0;
+		top: 0;
+		left: 0;
+		text-align: center;
+		padding: 15px 10px;
+        display: none;
+        z-index: 10;
+	}
+	.main-nav li{
+		display: block;
+		margin: 10px 0;
+	}
+	.main-nav li a{
+		text-align: center;
+		color: #1E2528;
+		transition: .3s;
+	}
+	.main-nav li a:hover{
+		color: #FF8380;
+	}
+	.feature-item{
+	    margin-bottom: 30px;
+	}
+	.review-box {
+	    padding: 0;
+	}
+	.team-member{
+		margin-bottom: 30px;
+	}
+	.contact-form{
+		margin-top: 30px;
+	}
+	
+}
+@media only screen and (max-width: 420px){
+    .play-btn{
+    	display: block;
+    	margin-top: 5pxpx;
+    	margin-left: 0;
+    }
+    .play-btn span i{
+    	margin-left: 0;
+    }
+    .china-rose,
+    .jasmine{
+		display: none
+	}
+	.banner-details h1{
+		font-size: 50px;
+	}
+}
